@@ -1,12 +1,56 @@
-# React + Vite
+# React Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a simple and customizable password generator built with React, Vite, and Tailwind CSS. Users can specify the password length and choose whether to include numbers and special characters.
 
-Currently, two official plugins are available:
+## Features
+- Customize password length.
+- Option to include/exclude numbers.
+- Option to include/exclude special characters.
+- Responsive and user-friendly UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React.js (with Vite)
+- Tailwind CSS
+- HTML
+- JavaScript
 
-## Expanding the ESLint configuration
+## Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/"Password Generator"
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd Password Generator
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Usage
+1. Open the application in your browser.
+2. Adjust the password length using the slider or input field.
+3. Toggle checkboxes to include/exclude numbers and special characters.
+4. Copy the generated password with a single click.
+
+## Project Structure
+```
+react-password-generator/
+│-- src/
+│   │-- App.js
+│   │-- main.js
+│-- public/
+│-- package.json
+│-- tailwind.config.js
+│-- vite.config.js
+│-- README.md
+```
+
+## Contributing
+Feel free to contribute by opening issues or submitting pull requests.
