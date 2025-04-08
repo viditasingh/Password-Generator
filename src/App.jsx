@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -25,6 +25,8 @@ function App() {
 
     }, [length,numAllowed,charAllowed,setPassword])
 
+    useEffect(()=>{passwordGenerator()},[length,numAllowed,charAllowed,passwordGenerator])
+
     return(
     <>
       <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-blue-300 bg-gray-700 py-0.5 pb-1">
@@ -33,7 +35,7 @@ function App() {
             <input 
                 type="text"
                 value={password} 
-                className='outline-none w-full py-1 px-3 bg-amber-50'
+                className='outline-none w-full py-1 px-3 bg-amber-50 text-blue-700'
                 placeholder='Password'
                 readOnly
             />
