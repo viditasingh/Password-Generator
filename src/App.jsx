@@ -50,7 +50,7 @@ function App() {
             />
             <button 
                 onClick={copyToClipboard}
-                className='outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0 cursor-pointer'>
+                className='outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0 cursor-pointer hover:bg-blue-900'>
                 copy
             </button>
         </div>
