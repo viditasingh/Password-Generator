@@ -15,6 +15,10 @@ This is a simple and customizable password generator built with React, Vite, and
 - HTML
 - JavaScript
 
+- ## Screenshots
+
+![Password Generator Screenshot](https://i.ibb.co/Vp9JgWKc/Screenshot-2025-05-01-150935.png)
+
 ## Installation
 1. Clone this repository:
    ```bash
